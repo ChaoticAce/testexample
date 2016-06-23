@@ -1,0 +1,41 @@
+{
+  "notebooks": [
+    {
+      "id": 0,
+      "title": "title 0",
+      "archived": true
+    }
+  ],
+  "notes": [
+    {
+      "id": 0,
+      "title": "title 0",
+      "body": "body 0",
+      "notebookId": 0,
+      "archived": false,
+      "createdAt": "test timestamp 0",
+      "lastSaved": "updated at 0"
+    }
+  ],
+  "actions": [
+    {
+      "id": 0,
+      "title": "title 0",
+      "linkStart": 0,
+      "linkEnd": 0,
+      "completed": true,
+      "dueDate": "due date 0",
+      "createdAt": "test timestamp 0",
+      "checkboxUpdatedAt": "checkbox updated at 0"
+    }
+  ],
+  "styles": [
+    {
+      "id": 0,
+      "noteId": 0,
+      "type": "bold 0",
+      "start": 0,
+      "end": 4
+    }
+  ]
+}

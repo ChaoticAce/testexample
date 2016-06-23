@@ -1,0 +1,159 @@
+{
+  "notebooks": [
+    {
+      "id": 0,
+      "title": "title 0",
+      "archived": true
+    },
+    {
+      "id": 1,
+      "title": "title 1",
+      "archived": true
+    },
+    {
+      "id": 2,
+      "title": "title 2",
+      "archived": true
+    },
+    {
+      "id": 3,
+      "title": "title 3",
+      "archived": false
+    },
+    {
+      "id": 4,
+      "title": "title 4",
+      "archived": false
+    },
+    {
+      "id": 5,
+      "title": "title 5",
+      "archived": false
+    },
+    {
+      "id": 6,
+      "title": "title 6",
+      "archived": false
+    }
+  ],
+  "notes": [
+    {
+      "id": 0,
+      "title": "title 0",
+      "body": "body 0",
+      "notebookId": 10,
+      "archived": true,
+      "createdAt": "test timestamp 0",
+      "lastSaved": "updated at 0"
+    },
+    {
+      "id": 1,
+      "title": "title 1",
+      "body": "body 1",
+      "notebookId": 11,
+      "archived": false,
+      "createdAt": "test timestamp 1",
+      "lastSaved": "updated at 1"
+    },
+    {
+      "id": 2,
+      "title": "title 2",
+      "body": "body 2",
+      "notebookId": 12,
+      "archived": true,
+      "createdAt": "test timestamp 2",
+      "lastSaved": "updated at 2"
+    },
+    {
+      "id": 3,
+      "title": "title 3",
+      "body": "body 3",
+      "notebookId": 13,
+      "archived": false,
+      "createdAt": "test timestamp 3",
+      "lastSaved": "updated at 3"
+    },
+    {
+      "id": 4,
+      "title": "title 4",
+      "body": "body 4",
+      "notebookId": 14,
+      "archived": true,
+      "createdAt": "test timestamp 4",
+      "lastSaved": "updated at 4"
+    }
+  ],
+  "actions": [
+    {
+      "id": 0,
+      "title": "title 0",
+      "linkStart": 0,
+      "linkEnd": 0,
+      "completed": true,
+      "archived": false,
+      "dueDate": "due date 0",
+      "createdAt": "test timestamp 0",
+      "checkboxUpdatedAt": "checkbox updated at 0"
+    },
+    {
+      "id": 1,
+      "title": "title 1",
+      "noteId": 11,
+      "linkId": "31",
+      "linkStart": 2,
+      "linkEnd": 3,
+      "completed": false,
+      "archived": true,
+      "dueDate": "due date 1",
+      "createdAt": "test timestamp 1",
+      "checkboxUpdatedAt": "checkbox updated at 1"
+    },
+    {
+      "id": 2,
+      "title": "title 2",
+      "noteId": 12,
+      "linkId": "32",
+      "linkStart": 3,
+      "linkEnd": 4,
+      "completed": true,
+      "archived": false,
+      "dueDate": "due date 2",
+      "createdAt": "test timestamp 2",
+      "checkboxUpdatedAt": "checkbox updated at 2"
+    },
+    {
+      "id": 3,
+      "title": "title 3",
+      "linkStart": 0,
+      "linkEnd": 0,
+      "completed": false,
+      "archived": true,
+      "dueDate": "due date 3",
+      "createdAt": "test timestamp 3",
+      "checkboxUpdatedAt": "checkbox updated at 3"
+    }
+  ],
+  "styles": [
+    {
+      "id": 0,
+      "noteId": 0,
+      "type": "bold 0",
+      "start": 0,
+      "end": 4
+    },
+    {
+      "id": 1,
+      "noteId": 0,
+      "type": "bold 1",
+      "start": 2,
+      "end": 8
+    },
+    {
+      "id": 2,
+      "noteId": 0,
+      "type": "bold 2",
+      "start": 4,
+      "end": 12
+    }
+  ]
+}
